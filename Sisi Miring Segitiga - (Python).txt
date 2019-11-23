@@ -1,0 +1,10 @@
+print ('  PROGRAM PERHITUNGAN SISI MIRING SEGITIGA  ')
+print ('--------------------------------------------')
+print ('         Oleh Kelompok 34 (Shift 3)         ')
+print (' Maftukhah Dwi Utami        - 21120117120006')
+print ('--------------------------------------------')
+from math import sqrt as akar
+a = int(input ("Masukkan panjang dari sisi a : "))
+b = int(input ("Masukkan panjang dari sisi b : "))
+c = akar(a**2 + b**2)
+print ('Jadi, panjang dari sisi c adalah = ', + c)

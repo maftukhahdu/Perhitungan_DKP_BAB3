@@ -1,0 +1,29 @@
+package javasisimiringsegitigakelompok32;
+
+/**
+ *
+ * @author msi
+ */
+import  java.util.*;
+public class JavaSisiMiringSegitigaKelompok32 {
+
+    /**
+     * @param args the command line arguments
+     */
+    public static void main(String[] args) {
+        // TODO code application logic here
+        Scanner masuk=new Scanner(System.in);
+      int a,b,c;
+        System.out.println("   PROGRAM MENGHITUNG SISI MIRING SEGITIGA   ");
+        System.out.println("---------------------------------------------");
+        System.out.println("          Oleh Kelompok 34 (Shift 3)         ");
+        System.out.println("   Maftukhah Dwi Utami      -  21120117120006");
+      System.out.print("Masukkan panjang dari sisi a = ");
+      a=masuk.nextInt();
+      System.out.print("Masukkan panjang dari sisi b = ");
+      b=masuk.nextInt();
+      c=((a*a)+(b*b));
+      System.out.println("Jadi, panjang dari sisi c adalah = "+(Math.sqrt(c)));
+    }
+    
+}

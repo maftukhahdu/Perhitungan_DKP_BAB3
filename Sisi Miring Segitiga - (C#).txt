@@ -1,0 +1,31 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace Tugas2HitungSisiCCSharpKelompok9
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            double a,b,c;
+            Console.WriteLine(" ___________________________________________ ");
+            Console.WriteLine("|  PROGRAM PENGHITUNG SISI MIRING SEGITIGA  |");
+            Console.WriteLine("|___________________________________________|");
+            Console.WriteLine("|         Oleh Kelompok 34 (Shift 3)        |");
+            Console.WriteLine("| Maftukhah Dwi Utami      - 21120117120006 |");
+            Console.WriteLine("|___________________________________________|\n");
+            Console.Write("Input panjang dari sisi a (cm) = ");
+            a = Double.Parse(Console.ReadLine());
+            Console.Write("Input panjang dari sisi b (cm) = ");
+            b = Double.Parse(Console.ReadLine());
+            Console.WriteLine();
+            c = Math.Sqrt((a * a) + (b * b));
+
+            Console.WriteLine("Jadi, panjang dari sisi c adalah = "+ c);
+            Console.ReadKey();
+        }
+    }
+}
